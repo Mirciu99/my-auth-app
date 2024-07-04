@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/my-app.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "MyApp",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "attribute": "header"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "fieldName": "header"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "my-app",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "my-app",
+          "declaration": {
+            "name": "MyApp",
+            "module": "src/my-app.js"
+          }
+        }
+      ]
+    }
+  ]
+}
